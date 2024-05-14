@@ -53,6 +53,6 @@ function renderizarPagina(letra) {
 }
 
 // Escucha en todas las interfaces en el puerto 3000
-app.listen(3000, '192.168.56.1', () => {
+app.listen(3000, () => {
     console.log('Servidor HTTP en ejecución en el puerto 3000');
 });
